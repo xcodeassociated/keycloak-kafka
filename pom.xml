@@ -10,8 +10,9 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<keycloak.version>25.0.0</keycloak.version>
-		<kafka.version>3.4.0</kafka.version>
-		<junit.version>5.9.2</junit.version>
+		<kafka.version>3.8.0</kafka.version>
+		<junit.version>5.11.0</junit.version>
+		<jboss-logging.version>3.6.1.Final</jboss-logging.version>
 	</properties>
 
 	<dependencies>
@@ -39,7 +40,7 @@
 		<dependency>
 			<groupId>org.jboss.logging</groupId>
 			<artifactId>jboss-logging</artifactId>
-			<version>3.5.0.Final</version>
+			<version>${jboss-logging.version}</version>
 		</dependency>
 
 		<dependency>
